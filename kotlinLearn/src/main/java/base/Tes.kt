@@ -1,4 +1,6 @@
-/**
+package base
+
+/** 语法
  * @author Wang Weiwei <email>weiwei02@vip.qq.com / weiwei.wang@100credit.com</email>
  * @sine 2017/11/22
  * @version 1.0
@@ -6,7 +8,7 @@
 
 fun main(args: Array<String>) {
     println("Hello kotlin")
-    println(add(1,2))
+    println(add(1, 2))
     lambda()
     strModel()
 }
@@ -37,7 +39,7 @@ fun vars(vararg v:Int){
 
 
 /**
- * lambda
+ * base.lambda
  * */
 fun lambda(){
     val sumLambda: (Int, Int) -> Int = {x, y -> x + y}
