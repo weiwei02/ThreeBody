@@ -9,6 +9,8 @@ fun main(args: Array<String>) {
     println(add(1,2))
     lambda()
     strModel()
+    isNull(null)
+    range1()
 }
 
 fun add(a: Int, b: Int): Int{
@@ -55,4 +57,33 @@ fun strModel(){
     val str2 = "${str1.replace("is", "was")}, now is $a"
     println(str1)
     println(str2)
+}
+
+
+/**
+ * 是否为空函数
+ * 类型后 + ? 代表可以为空
+ * */
+fun isNull(age: String?){
+    //抛出空指针异常
+//    val ages = age!!.toInt()
+    //不做处理直接返回null
+    val ages1 = age?.toInt()
+    //如果未空返回-1
+    val ages3 = age?.toInt() ?: -1
+    println("a1 = $ages1 , a2 = $ages3")
+}
+
+
+/**
+ *
+ * */
+fun range1(){
+    for (i in 4..1) print(i)
+    for (i in 1 until 10) println(i)
+}
+
+
+class Person{
+    var name: String? = null
 }

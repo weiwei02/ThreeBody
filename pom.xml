@@ -16,5 +16,13 @@
             <email>weiwei02@vip.qq.com</email>
         </developer>
     </developers>
+    <modules>
+        <module>kotlinLearn</module>
+    </modules>
+
+
+    <properties>
+        <kotlin.version>1.1.60</kotlin.version>
+    </properties>
     
 </project>
