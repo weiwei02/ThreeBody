@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>kotlinLearn</module>
+        <module>kotlin_spring</module>
+        <module>MutationTest</module>
     </modules>
 
     <developers>
