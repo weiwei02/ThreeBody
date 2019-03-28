@@ -19,6 +19,6 @@ public class MoneyProblemTest {
         int count = problem.countWays(penny, 3, 3);
         int count2 = problem.countWays(penny, 4, 4);
         assertEquals(count, 2);
-        assertEquals(count, 4);
+        assertEquals(count2, 4);
     }
 }
